@@ -89,13 +89,23 @@ header
             color: #ffffff
 
 .features
+    width: 100%
+    height: 100%
     min-height: 430px
     padding: 75px 0
     background: url('../img/bg/features_bg.jpg')
     &_cards
         display: flex
-        .card
+        flex-wrap: wrap
+        justify-content: space-between
+        margin-left: -1%
+        .card1
+            margin-left: 1%
+            margin-bottom: 1%
+            background: #fff
+            width: calc( 1170px - 58% )
             &_img
+                display: block
                 padding-top: 7px
                 width: 185px
                 height: 130px
@@ -110,4 +120,6 @@ header
                     text-align: center
                     padding-top: 11px 
                     font-weight: 300
-            
+
+.catalog
+    min-height: 600px
