@@ -1,56 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Treiler</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Прицепы | Фаркопы | Запчасти в Ярославле</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+  	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    
-    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav> -->
-
     <header>
         <div class="container">
             <nav>
                 <div class="header_logo">
-                    <img src="img/logo.png" alt="logo">
-                    <div class="header_text">Официальный дилерю</div>
+                    <a href="#">
+                        <img src="icons/header/logo.png" alt="logo">
+                        <div class="header_text">Официальный дилер</div>
+                    </a>
                 </div>
-                <ul class="nav">
-                    <li class="nav-item"><a class="nav-link active" href="#">почему мы</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">каталог</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">оставить заявку</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">контакты</a></li>
-                    <li class="header_phone"><a href="tel:79999999999"><img src="icons/phone.svg" alt="">+7 999 999 99 99</a></li>
+                <div class="menuBurger" id="burger">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" height="24" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="24"><line x1="3" x2="21" y1="12" y2="12"/><line x1="3" x2="21" y1="6" y2="6"/><line x1="3" x2="21" y1="18" y2="18"/></svg>
+      		            <line xmlns="http://www.w3.org/2000/svg" x1="3" x2="21" y1="12" y2="12"/>
+      		            <line xmlns="http://www.w3.org/2000/svg" x1="3" x2="21" y1="6" y2="6"/>
+      		            <line xmlns="http://www.w3.org/2000/svg" x1="3" x2="21" y1="18" y2="18"/>
+		            </svg>
+                </div>
+                <ul class="navigation">
+                    <li class="navigation-item"><a class="navigation-link active" href="#features">почему мы</a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="#catalog">каталог</a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="#communication">оставить заявку</a></li>
+                    <li class="navigation-item"><a class="navigation-link" href="#contacts">контакты</a></li>
                 </ul>
             </nav>
         </div>
@@ -62,37 +42,156 @@
             <div class="promo_fon"></div>
             <h1 class="promo_header">прицепы, фаркопы и запчасти<br>для прицепов</h1>
             <div class="promo_subheader">Добро пожаловать! Мы ради приветствовать Вас на сайте компании, которая занимается продажей прицепов</div>
-            <a href="" class="promo_btn">Каталог прицепов</a>
+            <a href="#catalog" class="promo_btn">Каталог прицепов</a>
         </div>
     </section>
 
-    <section class="features">
+    <section class="features" id="features">
         <div class="container">
             <div class="features_cards">
-                <div class="col-md-4 card">
-                    <img src="icons/first.png" alt="" class="card_img">
-                    <div class="card_descr">
-                        <h3 class="card_descr_header">Широкий выбор</h3>
-                        <p class="card_descr_text">В каталоге нашей компании представлено большое количество прицепов, фаркопов и запасных частей</p>
+                <div class="card1">
+                    <img src="icons/features/first.png" alt="icons" class="card1_img">
+                    <div class="card1_descr">
+                        <h3 class="card1_descr_header">Широкий выбор</h3>
+                        <p class="card1_descr_text">В каталоге нашей компании представлено большое количество прицепов, фаркопов и запасных частей</p>
                     </div>
                 </div>
-                <div class="col-md-4 card">
-                    <img src="icons/1.png" alt="" class="card_img">
-                    <div class="card_descr">
-                        <h3 class="card_descr_header">Официальный дилер</h3>
-                        <p class="card_descr_text">Наша компания является официальным дилером</p>
+                <div class="card1">
+                    <img src="icons/features/second.png" alt="icons" class="card1_img">
+                    <div class="card1_descr">
+                        <h3 class="card1_descr_header">Официальный дилер</h3>
+                        <p class="card1_descr_text">Наша компания является официальным дилером</p>
                     </div>
                 </div>
-                <div class="col-md-4 card">
-                    <img src="icons/3.png" alt="" class="card_img">
-                    <div class="card_descr">
-                        <h3 class="card_descr_header">Доступная стоимость</h3>
-                        <p class="card_descr_text"></p>
+                <div class="card1">
+                    <img src="icons/features/third.png" alt="icons" class="card1_img">
+                    <div class="card1_descr">
+                        <h3 class="card1_descr_header">Заводские цены</h3>
+                        <p class="card1_descr_text">Продажа по заводской цене</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="info">
+      <div class="container">
+        <div class="info_grid">
+          <div class="first_grid">
+            <img src="img/catalog_cards/about_us.jpg" alt="" class="first_grid_img">
+          </div>
+          <div class="second_grid">
+            <h2 class="second_grid_header">О нас</h2>
+            <div class="second_grid_line"></div>
+            <div class="second_grid_descr">Наше предприятие является официальным дилером ООО «ТРЕЙЛЕР». Осуществляем доставку до подъезда. Несём гарантию завода-изготовителя на всю продукцию.
+              Прицеп представляет из себя транспортное средство, не оборудованное двигателем и предназначенное для движения в составе с механическим транспортным средством: легковым автомобилем, грузовым автомобилем, трактором, мотоциклом и другими транспортными средствами. Прицеп для легкового автомобиля называют легковой прицеп и автоприцеп. Прицепы предназначены для перевозки различных грузов. По своему назначению прицепы для легковых автомобилей различаются как грузовые, прицепы-дачи, специализированные прицепы для перевозки различной техники. Автоприцепы для перевозки техники имеют широкий спектр применения: прицепы для катеров и лодок, гидроциклов, снегоходов, яхт, катеров, автомобилей и так далее.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="catalog" id="catalog">
+        <div class="container">
+            <h2 class="catalog_header">Каталог</h2>
+            <div class="catalog_line"></div>
+            <div class="catalog_subheader">В каталоге нашей компании Вы можете выбрать себе прицеп, фаркоп и запасные части для прицепы</div>
+
+            <div class="catalog_items">
+                <div class="card" style="width: calc( 1170px - 58% )">
+                    <img src="img/catalog_cards/trailer.jpg" class="card-img-top" alt="trailer">
+                    <div class="card-body">
+                      <h5 class="card-title">Прицепы</h5>
+                      <p class="card-text">В данном каталоге представлен большой выбор прицепов</p>
+                      <a href="catalogs/catalog.html" class="btn btn-primary" id="first">Посмотреть</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: calc( 1170px - 58% )">
+                    <img src="img/catalog_cards/towbar.jpg" class="card-img-top" alt="tow bar">
+                    <div class="card-body">
+                      <h5 class="card-title">Фаркопы</h5>
+                      <p class="card-text">В данном каталоге представлен большой выбор фаркопов</p>
+                      <a href="catalogs/catalog.html" class="btn btn-primary" id="second">Посмотреть</a>
+                    </div>
+                  </div>
+                  <div class="card" style="width: calc( 1170px - 58% )">
+                    <img src="img/catalog_cards/spareparts.jpg" class="card-img-top" alt="spare parts">
+                    <div class="card-body">
+                      <h5 class="card-title">Запасные части</h5>
+                      <p class="card-text">В данном каталоге представлен большой выбор запасных частей для прицепов</p>
+                      <a href="catalogs/catalog.html" class="btn btn-primary" id="third">Посмотреть</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="communication" id="communication">
+        <div class="container">
+            <div class="communication_info">
+              <div class="communication_call">
+                <h2 class="communication_header">Остались вопросы?</h2>
+                <h2 class="communication_header">Задайте их нам!</h2>
+                <form class="form" action="check.php" method="POST">
+					<div class="communication_descr">Введите имя</div>
+					<input name="user_name"  type="text" required placeholder="Имя" autocomplete="off" class="communication_inp">
+					<div class="communication_descr">Введите E-mail</div>
+					<input name="user_mail" type="text" required placeholder="mail@mail.ru" autocomplete="off" class="communication_inp">
+					<button href="#" class="communication_btn" name="submit" type="submit">Задать вопрос</button>
+				</form>
+              </div>
+              <span class="communication_span">или</span>
+              <div class="communication_answer">
+                <h2 class="communication_header">Закажите звонок</h2>
+                <h2 class="communication_header">Мы позвоним Вам</h2>
+                <form action="check.php" class="form" method="POST">
+					<div class="communication_descr">Введите имя</div>
+                	<input name="user_name" type="text" required placeholder="Имя" autocomplete="off" class="communication_inp">
+                	<div class="communication_descr">Введите номер телефона</div>
+                	<input name="user_phone" type="text" required placeholder="Номер телефона" autocomplete="off" class="communication_inp">
+                	<button href="#" class="communication_btn" name="submit" type="submit">Заказать звонок</button>
+				</form>
+              </div>
+            </div>
+        </div>
+    </section>
+
+
+	<div class="contacts" id="contacts">
+		<div class="container">
+			<div class="contacts_main">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A24f48cf8f56a01a46ce18103bce8e8c63638d810d2679d11b46157d0003152a3&amp;width=400&amp;height=350&amp;lang=ru_RU&amp;scroll=true"></script>
+				<div class="contacts_info">
+					<h3 class="contacts_header">Контактная информация</h3>
+					<ul class="contacts_list">
+						<li>г. Ярославль, пр-кт Ленинградский, д.18А (у спорткомплекса ТРИУМФ)</li>
+						<li>E-mail: bsm75@list.ru</li>
+						<li>Телефон: 8 903 646 49 61 Сергей</li>
+						<li>Телефон: 8 903 828 48 47 Сергей</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="footer_main">
+				<div class="about-ip">
+					<p class="about-ip_text">ИП Меркулов С.Н. Предприятие по продаже прицепов и фаркопов для автомобилей</p>
+					<p class="about-ip_text">ОГРН ИП 304760435500203</p>
+				</div>
+				<div class="about-me">
+					<p class="about-me_text">Разработка сайтов<img src="icons/footer/corner.svg" alt="" class="about-me-corner"></p>
+					<div class="about-me_network">
+						<a href="https://vk.com/fvfvfvui" target="_blank"><img src="icons/footer/vk.png" alt="" ></a>
+						<a href="mailto:bsm2003@list.ru" target="_blank"><img src="icons/footer/mail.png" alt=""></a>
+						<a href="https://wa.me/+79301036766" target="_blank"><img src="icons/footer/whatsapp.png" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/burger.js"></script>
+	<script src="js/forms.js"></script>
 </body>
 </html>

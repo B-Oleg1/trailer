@@ -1,0 +1,53 @@
+.promo
+    position: relative
+    padding: 60px 0
+    width: 100%
+    min-height: 700px
+    color: #ffffff
+    &_img
+        position: absolute
+        top: 0
+        left: 0
+        z-index: -2
+        background: url('../img/bg/main_bg.jpg') center (center / cover) no-repeat
+        width: 100%
+        height: 100%
+        min-height: 700px
+    &_fon
+        position: absolute
+        top: 0
+        left: 0
+        opacity: 0.5
+        width: 100%
+        height: 100%
+        min-height: 700px
+        background: linear-gradient(to bottom, #000000 0%, #000000 100%)
+        z-index: -1
+    &_header
+        font-weight: 700
+        font-size: 72px
+        text-transform: uppercase
+        text-align: center
+    &_subheader
+        font-size: 24px
+        text-align: center
+        font-weight: 300
+    a
+        text-decoration-line: none
+    &_btn
+        display: block
+        background: rgb(237, 122, 0)
+        border-radius: 13px
+        font-size: 18px
+        color: #ffffff
+        border: 3px solid transparent
+        max-width: 350px
+        height: 60px
+        margin: 70px auto
+        text-align: center
+        padding-top: 15px
+        transition: .4s
+        &:hover
+            transform: translateY(3px)
+            cursor: pointer
+            color: #ffffff
